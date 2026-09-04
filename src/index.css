@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+
+  --color-warm-ivory: #FAF3EE;
+  --color-deep-soul-plum: #5B4750;
+  --color-espresso: #291714;
+  --color-champagne-taupe: #BDA494;
+
+  --color-surface: #fff8f7;
+  --color-surface-dim: #f5d2cd;
+  --color-surface-bright: #fff8f7;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #fff0ee;
+  --color-surface-container: #F7F1EE;
+  --color-surface-container-high: #ffe2de;
+  --color-surface-container-highest: #fedbd6;
+  --color-surface-tint: #F2E9E5;
+
+  --color-primary: #433139;
+  --color-primary-container: #5b4750;
+  --color-on-primary-container: #d1b6c1;
+  --color-inverse-primary: #dbbfca;
+
+  --color-secondary: #78555d;
+  --color-secondary-container: #ffd1da;
+  --color-on-secondary-container: #7b575f;
+
+  --color-on-surface: #291714;
+  --color-on-surface-variant: #4d4448;
+  --color-inverse-surface: #402b28;
+  --color-inverse-on-surface: #ffedea;
+  --color-outline: #7f7478;
+  --color-outline-variant: #d0c3c7;
+
+  --color-success-botanical: #3D6852;
+  --color-warning-honey: #B8860B;
+  --color-error-earthy: #9E3B3B;
+
+  /* Token html/021 (faisha-gallery) sengaja TIDAK dipasang di sini:
+     --spacing-{xs..3xl} di Tailwind v4 masuk namespace spacing yang sama dengan
+     max-w-{xs..3xl} → 82 utility max-w rusak (paragraf jadi strip 24px).
+     Tidak ada komponen yang memakai gap-md/p-lg/bg-tertiary. Upgrade path:
+     pakai nama non-colliding (--faisha-space-*) atau arbitrary value [24px]. */
+}
+
+body {
+  background-color: #FAF3EE;
+  color: #291714;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.hairline-border {
+  border: 1px solid #BDA494;
+}
+
+.hairline-border-subtle {
+  border: 1px solid rgba(189, 164, 148, 0.3);
+}
+
+.soft-shadow {
+  box-shadow: 0 4px 24px rgba(91, 71, 80, 0.05);
+}
+
+.glass-header {
+  background-color: rgba(250, 243, 238, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* BONUS-2 fix 2026-09-04: keyframes dipakai 50+ tempat tapi tak pernah didefinisi. */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeIn {
+  animation: fadeIn 220ms ease-out both;
+}
+
+/* Fix dobel shop 2026-09-05: drawer filter mobile slide kiri. */
+@keyframes slideIn {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF3EE;
+}
+::-webkit-scrollbar-thumb {
+  background: #BDA494;
+  border-radius: 9999px;
+}

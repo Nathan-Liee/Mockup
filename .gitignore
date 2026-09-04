@@ -1,0 +1,18 @@
+# Node + Faisha Mockup
+node_modules/
+dist/
+dist-ssr/
+build/
+coverage/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+.vscode
+
+
+# qa screens - hapus dari repo
+.qa-screens/
+.qa-screens/**
+

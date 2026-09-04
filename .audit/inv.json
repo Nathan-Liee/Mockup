@@ -1,0 +1,826 @@
+[
+{
+"seq": "1",
+"base": "FAI-SCR-001",
+"route": "/",
+"title": "Beranda Utama",
+"flow": "MAIN,COMMERCE",
+"scope": "R1/P0"
+},
+{
+"seq": "2",
+"base": "FAI-SCR-002",
+"route": "/",
+"title": "Beranda Pengguna Kembali",
+"flow": "RETURNING",
+"scope": "R1/P0"
+},
+{
+"seq": "3",
+"base": "FAI-SCR-003",
+"route": "/the-journey",
+"title": "The Journey of You",
+"flow": "MAIN",
+"scope": "R1/P0"
+},
+{
+"seq": "4",
+"base": "FAI-SCR-004",
+"route": "/the-journey#pyramid",
+"title": "Detail Self-Alignment Pyramid",
+"flow": "MAIN",
+"scope": "R1/P0"
+},
+{
+"seq": "5",
+"base": "FAI-SCR-005",
+"route": "/about",
+"title": "Tentang ITS FAISHA",
+"flow": "TRUST",
+"scope": "R1/P0"
+},
+{
+"seq": "6",
+"base": "FAI-SCR-006",
+"route": "/about/founder",
+"title": "Kisah Founder",
+"flow": "TRUST",
+"scope": "R1/P0"
+},
+{
+"seq": "7",
+"base": "FAI-SCR-007",
+"route": "/contact",
+"title": "Hubungi & Dukungan",
+"flow": "SUPPORT",
+"scope": "R1/P0"
+},
+{
+"seq": "8",
+"base": "FAI-SCR-008",
+"route": "/contact/form",
+"title": "Form Kontak & Partnership",
+"flow": "SUPPORT",
+"scope": "R1/P0"
+},
+{
+"seq": "9",
+"base": "FAI-SCR-009",
+"route": "/contact/success",
+"title": "Konfirmasi Tiket Dukungan",
+"flow": "SUPPORT",
+"scope": "R1/P0"
+},
+{
+"seq": "10",
+"base": "FAI-SCR-010",
+"route": "/faq",
+"title": "Pertanyaan Umum",
+"flow": "TRUST,COMMERCE",
+"scope": "R1/P0"
+},
+{
+"seq": "11",
+"base": "FAI-SCR-011",
+"route": "/community",
+"title": "Beautiful Soul Community Lite",
+"flow": "RELATIONSHIP",
+"scope": "R1/LITE"
+},
+{
+"seq": "12",
+"base": "FAI-SCR-012",
+"route": "/journal",
+"title": "Beautiful Soul Journal",
+"flow": "RELATIONSHIP",
+"scope": "R1/LITE"
+},
+{
+"seq": "13",
+"base": "FAI-SCR-013",
+"route": "/journal/[slug]",
+"title": "Artikel Journal",
+"flow": "RELATIONSHIP",
+"scope": "R1/LITE"
+},
+{
+"seq": "14",
+"base": "FAI-SCR-014",
+"route": "/search",
+"title": "Hasil Pencarian",
+"flow": "DISCOVERY",
+"scope": "R1/P0"
+},
+{
+"seq": "15",
+"base": "FAI-SCR-015",
+"route": "/search",
+"title": "Pencarian Tanpa Hasil",
+"flow": "DISCOVERY",
+"scope": "R1/P0"
+},
+{
+"seq": "16",
+"base": "FAI-SCR-016",
+"route": "/privacy",
+"title": "Privasi, Consent & Preference",
+"flow": "TRUST",
+"scope": "R1/P0"
+},
+{
+"seq": "17",
+"base": "FAI-SCR-017",
+"route": "/terms",
+"title": "Syarat & Ketentuan",
+"flow": "TRUST,COMMERCE",
+"scope": "R1/P0"
+},
+{
+"seq": "18",
+"base": "FAI-SCR-018",
+"route": "/shipping-returns",
+"title": "Pengiriman, Retur & Refund",
+"flow": "COMMERCE",
+"scope": "R1/P0-CONDITIONAL"
+},
+{
+"seq": "19",
+"base": "FAI-SCR-019",
+"route": "/shop",
+"title": "Semua Produk",
+"flow": "COMMERCE",
+"scope": "R1/P0"
+},
+{
+"seq": "20",
+"base": "FAI-SCR-020",
+"route": "/shop",
+"title": "Filter & Urutkan",
+"flow": "COMMERCE",
+"scope": "R1/P0"
+},
+{
+"seq": "21",
+"base": "FAI-SCR-021",
+"route": "/rituals",
+"title": "Semua Ritual",
+"flow": "COMMERCE,MAIN",
+"scope": "R1/P0"
+},
+{
+"seq": "22",
+"base": "FAI-SCR-022",
+"route": "/rituals/morning",
+"title": "Morning Ritual",
+"flow": "COMMERCE",
+"scope": "R1/P0"
+},
+{
+"seq": "23",
+"base": "FAI-SCR-023",
+"route": "/rituals/focus",
+"title": "Focus Ritual",
+"flow": "COMMERCE",
+"scope": "R1/P0-CONDITIONAL"
+},
+{
+"seq": "24",
+"base": "FAI-SCR-024",
+"route": "/rituals/home",
+"title": "Home Ritual",
+"flow": "COMMERCE",
+"scope": "R1/EXTENDED"
+},
+{
+"seq": "25",
+"base": "FAI-SCR-025",
+"route": "/rituals/sleep",
+"title": "Sleep Ritual",
+"flow": "COMMERCE",
+"scope": "R1/EXTENDED"
+},
+{
+"seq": "26",
+"base": "FAI-SCR-026",
+"route": "/rituals/soul",
+"title": "Soul Ritual",
+"flow": "COMMERCE,RELATIONSHIP",
+"scope": "R1/EXTENDED"
+},
+{
+"seq": "27",
+"base": "FAI-SCR-027",
+"route": "/davina-signature",
+"title": "Davina Signature Collection",
+"flow": "COMMERCE,ASSESSMENT",
+"scope": "R1/P0"
+},
+{
+"seq": "28",
+"base": "FAI-SCR-028",
+"route": "/product/[slug]",
+"title": "Detail Produk Sederhana",
+"flow": "COMMERCE",
+"scope": "R1/P0-CONDITIONAL"
+},
+{
+"seq": "29",
+"base": "FAI-SCR-029",
+"route": "/product/[slug]",
+"title": "Detail Produk Varian",
+"flow": "COMMERCE",
+"scope": "R1/P0-CONDITIONAL"
+},
+{
+"seq": "30",
+"base": "FAI-SCR-030",
+"route": "/product/[slug]?match=1",
+"title": "Produk yang Direkomendasikan",
+"flow": "MAIN,COMMERCE",
+"scope": "R1/P0-CONDITIONAL"
+},
+{
+"seq": "31",
+"base": "FAI-SCR-031",
+"route": "/product/[slug]",
+"title": "Status Pre-Order",
+"flow": "COMMERCE",
+"scope": "R1/P0-CONDITIONAL"
+},
+{
+"seq": "32",
+"base": "FAI-SCR-032",
+"route": "/product/[slug]",
+"title": "Stok Habis & Alternatif",
+"flow": "COMMERCE",
+"scope": "R1/P0"
+},
+{
+"seq": "33",
+"base": "FAI-SCR-033",
+"route": "/bundle/[slug]",
+"title": "Penyusun Ritual Set",
+"flow": "COMMERCE",
+"scope": "R1/EXTENDED"
+},
+{
+"seq": "34",
+"base": "FAI-SCR-034",
+"route": "/cart",
+"title": "Keranjang",
+"flow": "COMMERCE",
+"scope": "R1/P0-CONDITIONAL"
+},
+{
+"seq": "35",
+"base": "FAI-SCR-035",
+"route": "/cart",
+"title": "Keranjang Kosong",
+"flow": "COMMERCE",
+"scope": "R1/P0"
+},
+{
+"seq": "36",
+"base": "FAI-SCR-036",
+"route": "/checkout",
+"title": "Checkout — Kontak & Pengiriman",
+"flow": "COMMERCE",
+"scope": "R1/P0-CONDITIONAL"
+},
+{
+"seq": "37",
+"base": "FAI-SCR-037",
+"route": "/checkout/payment",
+"title": "Checkout — Pembayaran",
+"flow": "COMMERCE",
+"scope": "R1/P0-CONDITIONAL"
+},
+{
+"seq": "38",
+"base": "FAI-SCR-038",
+"route": "/checkout/review",
+"title": "Checkout — Tinjau Pesanan",
+"flow": "COMMERCE",
+"scope": "R1/P0-CONDITIONAL"
+},
+{
+"seq": "39",
+"base": "FAI-SCR-039",
+"route": "/payment/processing",
+"title": "Pembayaran Diproses",
+"flow": "COMMERCE",
+"scope": "R1/P0-CONDITIONAL"
+},
+{
+"seq": "40",
+"base": "FAI-SCR-040",
+"route": "/payment/failure",
+"title": "Pembayaran Gagal",
+"flow": "COMMERCE",
+"scope": "R1/P0-CONDITIONAL"
+},
+{
+"seq": "41",
+"base": "FAI-SCR-041",
+"route": "/order/thank-you",
+"title": "Terima Kasih, Beautiful Soul",
+"flow": "COMMERCE,RETURNING",
+"scope": "R1/P0-CONDITIONAL"
+},
+{
+"seq": "42",
+"base": "FAI-SCR-042",
+"route": "/account/orders/[id]",
+"title": "Lacak Pesanan",
+"flow": "COMMERCE,RETURNING",
+"scope": "R1/P0-CONDITIONAL"
+},
+{
+"seq": "43",
+"base": "FAI-SCR-043",
+"route": "/order/[id]/next-ritual",
+"title": "Ritual Setelah Pembelian",
+"flow": "RETURNING",
+"scope": "R1/P0"
+},
+{
+"seq": "44",
+"base": "FAI-SCR-044",
+"route": "/analysis",
+"title": "Landing Personal Fragrance Analysis",
+"flow": "MAIN,ASSESSMENT",
+"scope": "R1/P0"
+},
+{
+"seq": "45",
+"base": "FAI-SCR-045",
+"route": "/analysis#how-it-works",
+"title": "Cara Kerja & Privasi Assessment",
+"flow": "ASSESSMENT",
+"scope": "R1/P0"
+},
+{
+"seq": "46",
+"base": "FAI-SCR-046",
+"route": "/analysis/resume",
+"title": "Lanjutkan Assessment",
+"flow": "ASSESSMENT",
+"scope": "R1/P0"
+},
+{
+"seq": "47",
+"base": "FAI-SCR-047",
+"route": "/analysis/1",
+"title": "Pertanyaan 1 — Identitas",
+"flow": "ASSESSMENT",
+"scope": "R1/P0"
+},
+{
+"seq": "48",
+"base": "FAI-SCR-048",
+"route": "/analysis/2",
+"title": "Pertanyaan 2 — Emosi",
+"flow": "ASSESSMENT",
+"scope": "R1/P0"
+},
+{
+"seq": "49",
+"base": "FAI-SCR-049",
+"route": "/analysis/3",
+"title": "Pertanyaan 3 — Pola Pikir",
+"flow": "ASSESSMENT",
+"scope": "R1/P0"
+},
+{
+"seq": "50",
+"base": "FAI-SCR-050",
+"route": "/analysis/4",
+"title": "Pertanyaan 4 — Energi",
+"flow": "ASSESSMENT",
+"scope": "R1/P0"
+},
+{
+"seq": "51",
+"base": "FAI-SCR-051",
+"route": "/analysis/5",
+"title": "Pertanyaan 5 — Perilaku",
+"flow": "ASSESSMENT",
+"scope": "R1/P0"
+},
+{
+"seq": "52",
+"base": "FAI-SCR-052",
+"route": "/analysis/6",
+"title": "Pertanyaan 6 — Kebutuhan",
+"flow": "ASSESSMENT",
+"scope": "R1/P0"
+},
+{
+"seq": "53",
+"base": "FAI-SCR-053",
+"route": "/analysis/7",
+"title": "Pertanyaan 7 — Visi",
+"flow": "ASSESSMENT",
+"scope": "R1/P0"
+},
+{
+"seq": "54",
+"base": "FAI-SCR-054",
+"route": "/analysis/processing",
+"title": "Memproses Hasil",
+"flow": "ASSESSMENT",
+"scope": "R1/P0"
+},
+{
+"seq": "55",
+"base": "FAI-SCR-055",
+"route": "/analysis/result/preview",
+"title": "Hasil Singkat",
+"flow": "ASSESSMENT",
+"scope": "R1/P0"
+},
+{
+"seq": "56",
+"base": "FAI-SCR-056",
+"route": "/analysis/result/save",
+"title": "Simpan Hasil / Daftar",
+"flow": "ASSESSMENT",
+"scope": "R1/P0"
+},
+{
+"seq": "57",
+"base": "FAI-SCR-057",
+"route": "/my-result/[id]",
+"title": "Ringkasan Hasil Lengkap",
+"flow": "ASSESSMENT,RETURNING",
+"scope": "R1/P0"
+},
+{
+"seq": "58",
+"base": "FAI-SCR-058",
+"route": "/my-result/[id]#archetype",
+"title": "Detail Aroma Archetype",
+"flow": "ASSESSMENT",
+"scope": "R1/P0"
+},
+{
+"seq": "59",
+"base": "FAI-SCR-059",
+"route": "/my-result/[id]#scent-profile",
+"title": "Personal Scent Profile",
+"flow": "ASSESSMENT",
+"scope": "R1/P0"
+},
+{
+"seq": "60",
+"base": "FAI-SCR-060",
+"route": "/my-result/[id]#crystal",
+"title": "Crystal Trinity",
+"flow": "ASSESSMENT",
+"scope": "R1/P0"
+},
+{
+"seq": "61",
+"base": "FAI-SCR-061",
+"route": "/my-result/[id]#ritual",
+"title": "Rekomendasi Ritual Personal",
+"flow": "ASSESSMENT,RETURNING",
+"scope": "R1/P0"
+},
+{
+"seq": "62",
+"base": "FAI-SCR-062",
+"route": "/my-result/[id]#product",
+"title": "Rekomendasi Produk",
+"flow": "ASSESSMENT,COMMERCE",
+"scope": "R1/P0-CONDITIONAL"
+},
+{
+"seq": "63",
+"base": "FAI-SCR-063",
+"route": "/my-result/[id]#why",
+"title": "Mengapa Ini Direkomendasikan",
+"flow": "ASSESSMENT",
+"scope": "R1/P0"
+},
+{
+"seq": "64",
+"base": "FAI-SCR-064",
+"route": "/my-result/[id]/share",
+"title": "Pratinjau Bagikan Hasil",
+"flow": "ASSESSMENT,REFERRAL",
+"scope": "R1/EXTENDED"
+},
+{
+"seq": "65",
+"base": "FAI-SCR-065",
+"route": "/login",
+"title": "Masuk",
+"flow": "AUTH",
+"scope": "R1/P0"
+},
+{
+"seq": "66",
+"base": "FAI-SCR-066",
+"route": "/register",
+"title": "Daftar",
+"flow": "AUTH,ASSESSMENT",
+"scope": "R1/P0"
+},
+{
+"seq": "67",
+"base": "FAI-SCR-067",
+"route": "/forgot-password",
+"title": "Lupa Kata Sandi",
+"flow": "AUTH",
+"scope": "R1/P0"
+},
+{
+"seq": "68",
+"base": "FAI-SCR-068",
+"route": "/reset-password",
+"title": "Atur Ulang Kata Sandi",
+"flow": "AUTH",
+"scope": "R1/P0"
+},
+{
+"seq": "69",
+"base": "FAI-SCR-069",
+"route": "/verify-email",
+"title": "Verifikasi Email",
+"flow": "AUTH",
+"scope": "R1/P0"
+},
+{
+"seq": "70",
+"base": "FAI-SCR-070",
+"route": "/account/merge",
+"title": "Akun Duplikat / Gabungkan",
+"flow": "AUTH",
+"scope": "R1/P0"
+},
+{
+"seq": "71",
+"base": "FAI-SCR-071",
+"route": "/my-journey",
+"title": "Dashboard Lite",
+"flow": "RETURNING",
+"scope": "R1/P0"
+},
+{
+"seq": "72",
+"base": "FAI-SCR-072",
+"route": "/my-journey/result",
+"title": "Hasil Saya",
+"flow": "RETURNING",
+"scope": "R1/P0"
+},
+{
+"seq": "73",
+"base": "FAI-SCR-073",
+"route": "/my-journey/ritual",
+"title": "Ritual Saya",
+"flow": "RETURNING",
+"scope": "R1/P0"
+},
+{
+"seq": "74",
+"base": "FAI-SCR-074",
+"route": "/account/orders",
+"title": "Daftar Pesanan",
+"flow": "RETURNING,COMMERCE",
+"scope": "R1/P0"
+},
+{
+"seq": "75",
+"base": "FAI-SCR-075",
+"route": "/account/orders/[id]",
+"title": "Detail Pesanan",
+"flow": "RETURNING,COMMERCE",
+"scope": "R1/P0"
+},
+{
+"seq": "76",
+"base": "FAI-SCR-076",
+"route": "/account/rewards",
+"title": "Ledger Soul Petals",
+"flow": "RETURNING",
+"scope": "R1/EXTENDED"
+},
+{
+"seq": "77",
+"base": "FAI-SCR-077",
+"route": "/rewards",
+"title": "Beautiful Soul Rewards Overview",
+"flow": "REFERENCE",
+"scope": "FUTURE/REFERENCE"
+},
+{
+"seq": "78",
+"base": "FAI-SCR-078",
+"route": "/account/wishlist",
+"title": "Wishlist",
+"flow": "RETURNING",
+"scope": "R1/P1"
+},
+{
+"seq": "79",
+"base": "FAI-SCR-079",
+"route": "/account/profile",
+"title": "Profil & Alamat",
+"flow": "RETURNING",
+"scope": "R1/P0"
+},
+{
+"seq": "80",
+"base": "FAI-SCR-080",
+"route": "/account/notifications",
+"title": "Preferensi Notifikasi",
+"flow": "RETURNING",
+"scope": "R1/P0"
+},
+{
+"seq": "81",
+"base": "FAI-SCR-081",
+"route": "/account/privacy",
+"title": "Privasi & Permintaan Data",
+"flow": "RETURNING",
+"scope": "R1/P0"
+},
+{
+"seq": "82",
+"base": "FAI-SCR-082",
+"route": "/account/security",
+"title": "Keamanan & Perangkat",
+"flow": "RETURNING",
+"scope": "R1/P0"
+},
+{
+"seq": "83",
+"base": "FAI-SCR-083",
+"route": "/community/home",
+"title": "Beranda Member Community",
+"flow": "RELATIONSHIP,REFERENCE",
+"scope": "FUTURE/REFERENCE"
+},
+{
+"seq": "84",
+"base": "FAI-SCR-084",
+"route": "/community/events/[slug]",
+"title": "Detail Event / Deep Talk",
+"flow": "RELATIONSHIP",
+"scope": "R1/P1"
+},
+{
+"seq": "85",
+"base": "FAI-SCR-085",
+"route": "/community/join",
+"title": "Daftar Community",
+"flow": "RELATIONSHIP",
+"scope": "R1/LITE"
+},
+{
+"seq": "86",
+"base": "FAI-SCR-086",
+"route": "/academy/free-course",
+"title": "Kursus Gratis Beautiful Soul",
+"flow": "RELATIONSHIP",
+"scope": "R1/P1"
+},
+{
+"seq": "87",
+"base": "FAI-SCR-087",
+"route": "/academy/course/[slug]/lesson/[id]",
+"title": "Detail Modul Kursus",
+"flow": "REFERENCE",
+"scope": "FUTURE/REFERENCE"
+},
+{
+"seq": "88",
+"base": "FAI-SCR-088",
+"route": "/my-journal",
+"title": "My Journal — Beranda",
+"flow": "RELATIONSHIP",
+"scope": "R1/P1-CONDITIONAL"
+},
+{
+"seq": "89",
+"base": "FAI-SCR-089",
+"route": "/my-journal/new",
+"title": "Tulis Refleksi",
+"flow": "RELATIONSHIP",
+"scope": "R1/P1-CONDITIONAL"
+},
+{
+"seq": "90",
+"base": "FAI-SCR-090",
+"route": "/my-journal/history",
+"title": "Riwayat & Insight Journal",
+"flow": "REFERENCE",
+"scope": "FUTURE/REFERENCE"
+},
+{
+"seq": "91",
+"base": "FAI-SCR-091",
+"route": "/admin/results",
+"title": "Admin — Daftar Hasil Assessment",
+"flow": "ADMIN",
+"scope": "R1/P0"
+},
+{
+"seq": "92",
+"base": "FAI-SCR-092",
+"route": "/admin/results/[id]",
+"title": "Admin — Detail Hasil Assessment",
+"flow": "ADMIN",
+"scope": "R1/P0"
+},
+{
+"seq": "93",
+"base": "FAI-SCR-093",
+"route": "/admin/orders",
+"title": "Admin — Daftar Pesanan",
+"flow": "ADMIN",
+"scope": "R1/P0"
+},
+{
+"seq": "94",
+"base": "FAI-SCR-094",
+"route": "/admin/orders/[id]",
+"title": "Admin — Detail Pesanan & Unlock",
+"flow": "ADMIN",
+"scope": "R1/P0"
+},
+{
+"seq": "95",
+"base": "FAI-SCR-095",
+"route": "system://loading",
+"title": "Library Loading & Skeleton",
+"flow": "SYSTEM",
+"scope": "R1/P0"
+},
+{
+"seq": "96",
+"base": "FAI-SCR-096",
+"route": "system://empty",
+"title": "Library Empty State",
+"flow": "SYSTEM",
+"scope": "R1/P0"
+},
+{
+"seq": "97",
+"base": "FAI-SCR-097",
+"route": "system://error",
+"title": "Library Error & Recovery",
+"flow": "SYSTEM",
+"scope": "R1/P0"
+},
+{
+"seq": "98",
+"base": "FAI-SCR-098",
+"route": "system://success",
+"title": "Library Success State",
+"flow": "SYSTEM",
+"scope": "R1/P0"
+},
+{
+"seq": "99",
+"base": "FAI-SCR-099",
+"route": "system://locked",
+"title": "Library Locked & Gated",
+"flow": "SYSTEM",
+"scope": "R1/P0"
+},
+{
+"seq": "100",
+"base": "FAI-SCR-100",
+"route": "system://consent",
+"title": "Library Consent State",
+"flow": "SYSTEM",
+"scope": "R1/P0"
+},
+{
+"seq": "101",
+"base": "FAI-SCR-101",
+"route": "system://overlays",
+"title": "Library Modal, Drawer & Bottom Sheet",
+"flow": "SYSTEM",
+"scope": "R1/P0"
+},
+{
+"seq": "102",
+"base": "FAI-SCR-102",
+"route": "/404",
+"title": "404 & Route Recovery",
+"flow": "SYSTEM",
+"scope": "R1/P0"
+},
+{
+"seq": "103",
+"base": "FAI-SCR-103",
+"route": "/offline",
+"title": "Offline / Maintenance",
+"flow": "SYSTEM",
+"scope": "R1/P0"
+}
+]

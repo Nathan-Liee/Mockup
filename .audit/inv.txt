@@ -1,0 +1,103 @@
+001|FAI-SCR-001|/|Beranda Utama|MAIN,COMMERCE|R1/P0
+002|FAI-SCR-002|/|Beranda Pengguna Kembali|RETURNING|R1/P0
+003|FAI-SCR-003|/the-journey|The Journey of You|MAIN|R1/P0
+004|FAI-SCR-004|/the-journey#pyramid|Detail Self-Alignment Pyramid|MAIN|R1/P0
+005|FAI-SCR-005|/about|Tentang ITS FAISHA|TRUST|R1/P0
+006|FAI-SCR-006|/about/founder|Kisah Founder|TRUST|R1/P0
+007|FAI-SCR-007|/contact|Hubungi & Dukungan|SUPPORT|R1/P0
+008|FAI-SCR-008|/contact/form|Form Kontak & Partnership|SUPPORT|R1/P0
+009|FAI-SCR-009|/contact/success|Konfirmasi Tiket Dukungan|SUPPORT|R1/P0
+010|FAI-SCR-010|/faq|Pertanyaan Umum|TRUST,COMMERCE|R1/P0
+011|FAI-SCR-011|/community|Beautiful Soul Community Lite|RELATIONSHIP|R1/LITE
+012|FAI-SCR-012|/journal|Beautiful Soul Journal|RELATIONSHIP|R1/LITE
+013|FAI-SCR-013|/journal/[slug]|Artikel Journal|RELATIONSHIP|R1/LITE
+014|FAI-SCR-014|/search|Hasil Pencarian|DISCOVERY|R1/P0
+015|FAI-SCR-015|/search|Pencarian Tanpa Hasil|DISCOVERY|R1/P0
+016|FAI-SCR-016|/privacy|Privasi, Consent & Preference|TRUST|R1/P0
+017|FAI-SCR-017|/terms|Syarat & Ketentuan|TRUST,COMMERCE|R1/P0
+018|FAI-SCR-018|/shipping-returns|Pengiriman, Retur & Refund|COMMERCE|R1/P0-CONDITIONAL
+019|FAI-SCR-019|/shop|Semua Produk|COMMERCE|R1/P0
+020|FAI-SCR-020|/shop|Filter & Urutkan|COMMERCE|R1/P0
+021|FAI-SCR-021|/rituals|Semua Ritual|COMMERCE,MAIN|R1/P0
+022|FAI-SCR-022|/rituals/morning|Morning Ritual|COMMERCE|R1/P0
+023|FAI-SCR-023|/rituals/focus|Focus Ritual|COMMERCE|R1/P0-CONDITIONAL
+024|FAI-SCR-024|/rituals/home|Home Ritual|COMMERCE|R1/EXTENDED
+025|FAI-SCR-025|/rituals/sleep|Sleep Ritual|COMMERCE|R1/EXTENDED
+026|FAI-SCR-026|/rituals/soul|Soul Ritual|COMMERCE,RELATIONSHIP|R1/EXTENDED
+027|FAI-SCR-027|/davina-signature|Davina Signature Collection|COMMERCE,ASSESSMENT|R1/P0
+028|FAI-SCR-028|/product/[slug]|Detail Produk Sederhana|COMMERCE|R1/P0-CONDITIONAL
+029|FAI-SCR-029|/product/[slug]|Detail Produk Varian|COMMERCE|R1/P0-CONDITIONAL
+030|FAI-SCR-030|/product/[slug]?match=1|Produk yang Direkomendasikan|MAIN,COMMERCE|R1/P0-CONDITIONAL
+031|FAI-SCR-031|/product/[slug]|Status Pre-Order|COMMERCE|R1/P0-CONDITIONAL
+032|FAI-SCR-032|/product/[slug]|Stok Habis & Alternatif|COMMERCE|R1/P0
+033|FAI-SCR-033|/bundle/[slug]|Penyusun Ritual Set|COMMERCE|R1/EXTENDED
+034|FAI-SCR-034|/cart|Keranjang|COMMERCE|R1/P0-CONDITIONAL
+035|FAI-SCR-035|/cart|Keranjang Kosong|COMMERCE|R1/P0
+036|FAI-SCR-036|/checkout|Checkout — Kontak & Pengiriman|COMMERCE|R1/P0-CONDITIONAL
+037|FAI-SCR-037|/checkout/payment|Checkout — Pembayaran|COMMERCE|R1/P0-CONDITIONAL
+038|FAI-SCR-038|/checkout/review|Checkout — Tinjau Pesanan|COMMERCE|R1/P0-CONDITIONAL
+039|FAI-SCR-039|/payment/processing|Pembayaran Diproses|COMMERCE|R1/P0-CONDITIONAL
+040|FAI-SCR-040|/payment/failure|Pembayaran Gagal|COMMERCE|R1/P0-CONDITIONAL
+041|FAI-SCR-041|/order/thank-you|Terima Kasih, Beautiful Soul|COMMERCE,RETURNING|R1/P0-CONDITIONAL
+042|FAI-SCR-042|/account/orders/[id]|Lacak Pesanan|COMMERCE,RETURNING|R1/P0-CONDITIONAL
+043|FAI-SCR-043|/order/[id]/next-ritual|Ritual Setelah Pembelian|RETURNING|R1/P0
+044|FAI-SCR-044|/analysis|Landing Personal Fragrance Analysis|MAIN,ASSESSMENT|R1/P0
+045|FAI-SCR-045|/analysis#how-it-works|Cara Kerja & Privasi Assessment|ASSESSMENT|R1/P0
+046|FAI-SCR-046|/analysis/resume|Lanjutkan Assessment|ASSESSMENT|R1/P0
+047|FAI-SCR-047|/analysis/1|Pertanyaan 1 — Identitas|ASSESSMENT|R1/P0
+048|FAI-SCR-048|/analysis/2|Pertanyaan 2 — Emosi|ASSESSMENT|R1/P0
+049|FAI-SCR-049|/analysis/3|Pertanyaan 3 — Pola Pikir|ASSESSMENT|R1/P0
+050|FAI-SCR-050|/analysis/4|Pertanyaan 4 — Energi|ASSESSMENT|R1/P0
+051|FAI-SCR-051|/analysis/5|Pertanyaan 5 — Perilaku|ASSESSMENT|R1/P0
+052|FAI-SCR-052|/analysis/6|Pertanyaan 6 — Kebutuhan|ASSESSMENT|R1/P0
+053|FAI-SCR-053|/analysis/7|Pertanyaan 7 — Visi|ASSESSMENT|R1/P0
+054|FAI-SCR-054|/analysis/processing|Memproses Hasil|ASSESSMENT|R1/P0
+055|FAI-SCR-055|/analysis/result/preview|Hasil Singkat|ASSESSMENT|R1/P0
+056|FAI-SCR-056|/analysis/result/save|Simpan Hasil / Daftar|ASSESSMENT|R1/P0
+057|FAI-SCR-057|/my-result/[id]|Ringkasan Hasil Lengkap|ASSESSMENT,RETURNING|R1/P0
+058|FAI-SCR-058|/my-result/[id]#archetype|Detail Aroma Archetype|ASSESSMENT|R1/P0
+059|FAI-SCR-059|/my-result/[id]#scent-profile|Personal Scent Profile|ASSESSMENT|R1/P0
+060|FAI-SCR-060|/my-result/[id]#crystal|Crystal Trinity|ASSESSMENT|R1/P0
+061|FAI-SCR-061|/my-result/[id]#ritual|Rekomendasi Ritual Personal|ASSESSMENT,RETURNING|R1/P0
+062|FAI-SCR-062|/my-result/[id]#product|Rekomendasi Produk|ASSESSMENT,COMMERCE|R1/P0-CONDITIONAL
+063|FAI-SCR-063|/my-result/[id]#why|Mengapa Ini Direkomendasikan|ASSESSMENT|R1/P0
+064|FAI-SCR-064|/my-result/[id]/share|Pratinjau Bagikan Hasil|ASSESSMENT,REFERRAL|R1/EXTENDED
+065|FAI-SCR-065|/login|Masuk|AUTH|R1/P0
+066|FAI-SCR-066|/register|Daftar|AUTH,ASSESSMENT|R1/P0
+067|FAI-SCR-067|/forgot-password|Lupa Kata Sandi|AUTH|R1/P0
+068|FAI-SCR-068|/reset-password|Atur Ulang Kata Sandi|AUTH|R1/P0
+069|FAI-SCR-069|/verify-email|Verifikasi Email|AUTH|R1/P0
+070|FAI-SCR-070|/account/merge|Akun Duplikat / Gabungkan|AUTH|R1/P0
+071|FAI-SCR-071|/my-journey|Dashboard Lite|RETURNING|R1/P0
+072|FAI-SCR-072|/my-journey/result|Hasil Saya|RETURNING|R1/P0
+073|FAI-SCR-073|/my-journey/ritual|Ritual Saya|RETURNING|R1/P0
+074|FAI-SCR-074|/account/orders|Daftar Pesanan|RETURNING,COMMERCE|R1/P0
+075|FAI-SCR-075|/account/orders/[id]|Detail Pesanan|RETURNING,COMMERCE|R1/P0
+076|FAI-SCR-076|/account/rewards|Ledger Soul Petals|RETURNING|R1/EXTENDED
+077|FAI-SCR-077|/rewards|Beautiful Soul Rewards Overview|REFERENCE|FUTURE/REFERENCE
+078|FAI-SCR-078|/account/wishlist|Wishlist|RETURNING|R1/P1
+079|FAI-SCR-079|/account/profile|Profil & Alamat|RETURNING|R1/P0
+080|FAI-SCR-080|/account/notifications|Preferensi Notifikasi|RETURNING|R1/P0
+081|FAI-SCR-081|/account/privacy|Privasi & Permintaan Data|RETURNING|R1/P0
+082|FAI-SCR-082|/account/security|Keamanan & Perangkat|RETURNING|R1/P0
+083|FAI-SCR-083|/community/home|Beranda Member Community|RELATIONSHIP,REFERENCE|FUTURE/REFERENCE
+084|FAI-SCR-084|/community/events/[slug]|Detail Event / Deep Talk|RELATIONSHIP|R1/P1
+085|FAI-SCR-085|/community/join|Daftar Community|RELATIONSHIP|R1/LITE
+086|FAI-SCR-086|/academy/free-course|Kursus Gratis Beautiful Soul|RELATIONSHIP|R1/P1
+087|FAI-SCR-087|/academy/course/[slug]/lesson/[id]|Detail Modul Kursus|REFERENCE|FUTURE/REFERENCE
+088|FAI-SCR-088|/my-journal|My Journal — Beranda|RELATIONSHIP|R1/P1-CONDITIONAL
+089|FAI-SCR-089|/my-journal/new|Tulis Refleksi|RELATIONSHIP|R1/P1-CONDITIONAL
+090|FAI-SCR-090|/my-journal/history|Riwayat & Insight Journal|REFERENCE|FUTURE/REFERENCE
+091|FAI-SCR-091|/admin/results|Admin — Daftar Hasil Assessment|ADMIN|R1/P0
+092|FAI-SCR-092|/admin/results/[id]|Admin — Detail Hasil Assessment|ADMIN|R1/P0
+093|FAI-SCR-093|/admin/orders|Admin — Daftar Pesanan|ADMIN|R1/P0
+094|FAI-SCR-094|/admin/orders/[id]|Admin — Detail Pesanan & Unlock|ADMIN|R1/P0
+095|FAI-SCR-095|system://loading|Library Loading & Skeleton|SYSTEM|R1/P0
+096|FAI-SCR-096|system://empty|Library Empty State|SYSTEM|R1/P0
+097|FAI-SCR-097|system://error|Library Error & Recovery|SYSTEM|R1/P0
+098|FAI-SCR-098|system://success|Library Success State|SYSTEM|R1/P0
+099|FAI-SCR-099|system://locked|Library Locked & Gated|SYSTEM|R1/P0
+100|FAI-SCR-100|system://consent|Library Consent State|SYSTEM|R1/P0
+101|FAI-SCR-101|system://overlays|Library Modal, Drawer & Bottom Sheet|SYSTEM|R1/P0
+102|FAI-SCR-102|/404|404 & Route Recovery|SYSTEM|R1/P0
+103|FAI-SCR-103|/offline|Offline / Maintenance|SYSTEM|R1/P0
